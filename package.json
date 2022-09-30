@@ -1,13 +1,13 @@
 {
-    "name": "@blazingworks/helloworld",
+    "name": "@blazingworks/logger",
     "version": "1.0.0",
-    "description": "Hello World NPM Library by BlazingWorks, acts as a boilerplate for future libraries",
-    "main": "dist/helloworld.js",
-    "types": "dist/helloworld.d.ts",
+    "description": "TypeScript Logging Library developed by BlazingWorks",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "files": [
         "dist/**/*"
     ],
-    "repository": "https://github.com/blazingworks/helloworld.git",
+    "repository": "https://github.com/blazingworks/logger.git",
     "author": "BlazingWorks",
     "license": "MIT",
     "private": false,
@@ -29,5 +29,6 @@
         "rimraf": "^3.0.2",
         "ts-jest": "^29.0.3",
         "typescript": "^4.8.4"
-    }
+    },
+    "dependencies": {}
 }
