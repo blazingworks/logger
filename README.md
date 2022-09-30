@@ -41,7 +41,8 @@ yarn add @blazingworks/logger
 ### TypeScript
 
 ```typescript
-import { Logger, ConsoleTransport } from "@blazingworks/logger";
+import { Logger } from "@blazingworks/logger";
+import { ConsoleTransport } from "@blazingworks/logger/transports";
 
 const logger = new Logger({
     transports: [{ module: new ConsoleTransport() }],
@@ -53,7 +54,8 @@ logger.info("Hello World");
 ### JavaScript
 
 ```javascript
-const { Logger, ConsoleTransport } = require("@blazingworks/logger");
+const { Logger } = require("@blazingworks/logger");
+const { ConsoleTransport } = require("@blazingworks/logger/transports");
 
 const logger = new Logger({
     transports: [{ module: new ConsoleTransport() }],

@@ -86,8 +86,8 @@ To add a transport, you need to create a class that implements the [`TransportMo
 Below, you can find an example transport based on the `ConsoleTransport` for reference:
 
 ```typescript
-import { LogLevel } from "@blazingworks/logger/enums/LogLevel";
-import TransportModule from "@blazingworks/logger/interfaces/TransportModule";
+import { LogLevel } from "@blazingworks/logger/enums";
+import { TransportModule } from "@blazingworks/logger/interfaces";
 
 export default class MyCoolConsoleTransport implements TransportModule {
     private format: string;
