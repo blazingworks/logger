@@ -1,18 +1,17 @@
 {
     "name": "@blazingworks/logger",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "TypeScript Logging Library developed by BlazingWorks",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "files": [
-        "dist/**/*"
-    ],
+    "files": [],
     "repository": "https://github.com/blazingworks/logger.git",
     "author": "BlazingWorks",
     "license": "MIT",
-    "private": false,
+    "private": true,
     "scripts": {
-        "build": "rimraf dist && tsc",
+        "build": "rimraf dist && tsc && npm run build:after",
+        "build:after": "cp package.dist.json dist/package.json && cp README.md dist/README.md && cp LICENSE dist/LICENSE && cp TRANSPORTS.md dist/TRANSPORTS.md",
         "prettier": "prettier --write \"src/**/*.ts\"",
         "lint": "eslint src/**/*.ts",
         "prettier:ci": "prettier --check \"src/**/*.ts\"",
