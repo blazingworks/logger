@@ -1,7 +1,7 @@
 {
     "name": "@blazingworks/logger",
     "version": "1.0.2",
-    "description": "TypeScript Logging Library developed by BlazingWorks",
+    "description": "🗃️ TypeScript Logging Library developed by BlazingWorks",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "files": [],

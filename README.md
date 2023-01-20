@@ -13,7 +13,7 @@
 
 </div>
 
-🌍 Hello World NPM Library by BlazingWorks, acts as a boilerplate for future libraries
+🗃️ TypeScript Logging Library developed by BlazingWorks
 
 ## Tech Stack
 
